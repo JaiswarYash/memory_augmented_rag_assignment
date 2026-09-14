@@ -96,8 +96,9 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```
-OPENAI_API_KEY=your-openai-key
-OPENAI_MODEL=gpt-4.1-mini
+`OPENAI_API_KEY=your-openai-key` (I'm using an API key from OpenRouter instead of an OpenAI API key.)
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+OPENAI_MODEL=meta-llama/llama-3.1-8b-instruct
 REDIS_HOST=your-redis-host
 REDIS_PORT=your-redis-port
 REDIS_PASSWORD=your-redis-password
